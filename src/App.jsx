@@ -3,7 +3,7 @@ import {About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, 
 function App() {
 
   return (
-    <HashRouter >
+    <BrowserRouter >
       <div className="relative z-0 bg-primary ">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -19,7 +19,7 @@ function App() {
           <StarsCanvas />
         </div>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
